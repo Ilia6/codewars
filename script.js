@@ -22,7 +22,7 @@ div2.textContent = integer;
 // Задача 3: Преобразуйте число 123 в строку. Выведите результат в div3.
 
 let int = 123;
-let str = a.toString();
+let str = int.toString();
 const div3 = document.getElementById('div3');
 div3.textContent = str;
 
