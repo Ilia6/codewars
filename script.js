@@ -13,7 +13,7 @@ div1.textContent = myVar_;
 //Задача 2: Преобразуйте строку ‘123’ в число. Выведите результат в div2.
 
 let stri = '123';
-const integer = parseInt(a);
+const integer = parseInt(stri);
 const div2 = document.getElementById('div2');
 div2.textContent = integer;
 
